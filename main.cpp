@@ -95,10 +95,10 @@ hittable_list random_scene() {
 
 // Image
 const double aspect_ratio = 16.0 / 9.0;
-const int width = 1920;// 1920;
+const int width = 400;// 1920;
 const int height = static_cast<int>(width / aspect_ratio);
-const int samples_per_pixel = 400;// 200;
-const int max_depth = 16;
+const int samples_per_pixel = 50;// 400;
+const int max_depth = 4;// 16;
 Pixel* image = new Pixel[width * height];
 
 // World
